@@ -1,5 +1,5 @@
 ## Hi there 👋
-Im an Applied NLP & LLM Researcher
+I'm an Applied NLP & LLM Researcher
 
 I work at the intersection of **NLP**, **evaluation**, and **LLM pipeline engineering**.  
 My focus is on **retrieval-augmented reasoning**, **semantic similarity**, and **practical model deployment** — building systems that are *reliable, interpretable, and reproducible*.
@@ -11,18 +11,20 @@ My focus is on **retrieval-augmented reasoning**, **semantic similarity**, and *
 - Structured prediction & evaluation frameworks  
 - Dataset curation and multilingual NLP  
 
-### 📌 Selected Projects
-- **Hybrid RAG Pipeline (public experiment)**  
-  Dense + sparse retrieval, ranking logic, and evaluation utilities.  
-  _Repo: `hybrid-sparse-dense-RAG`_
+### Selected Projects
 
-- **Local LLM Inference Setup**  
-  Minimal boilerplate for running quantized models locally with embeddings and generation.  
-  _Repo: `OpenWebUI_Qdrant_Docker`_
+- **Hybrid RAG Pipeline**
+  Dense + sparse retrieval (SPLADE + Contriever), ranking logic, BEIR-style evaluation.
+  Repo: https://github.com/spenkov101/hybrid-sparse-dense-RAG
 
-- **Fallacy Detection Baseline (upcoming)**  
-  Public-safe research baseline: TF-IDF, logistic regression, retrieval, structured outputs.  
-  _Repo: `fallacy-detection-baseline` (coming soon)_
+- **Fallacy Detection Baseline**
+  TF-IDF + logistic regression baseline, embedding-based retrieval, structured JSON outputs.
+  Repo: https://github.com/spenkov101/fallacy-detection-baseline
+
+- **Local LLM Inference Setup**
+  Docker Compose for OpenWebUI + Qdrant, designed to connect to Ollama running on the host.
+  Repo: https://github.com/spenkov101/OpenWebUI_Qdrant_Docker
+
 
 ### 🛠️ Tech I Use
 Python · PyTorch · SentenceTransformers · scikit-learn  
